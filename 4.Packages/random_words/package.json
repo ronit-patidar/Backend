@@ -1,0 +1,15 @@
+{
+  "name": "backend_by_shradhak",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"ronit_patidar\"",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
