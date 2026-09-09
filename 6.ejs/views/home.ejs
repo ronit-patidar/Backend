@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #4facfe, #00f2fe);
+            color: white;
+            text-align: center;
+        }
+        
+        .container {
+            margin-top: 100px;
+        }
+        
+        h1 {
+            font-size: 3rem;
+        }
+        
+        p {
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: white;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background: #ddd;
+        }
+        </style>
+</head>
+<body>
+    
+    <div class="container">
+        <!-- This is interpolation  -->
+        <h3><%= "ronit" + "_" + "patidar"%></h3> 
+        <h1>Welcome to Home Page 🚀</h1>
+        <p>This is your first EJS template.</p>
+
+        <button class="btn">Click Me</button>
+    </div>
+
+</body>
+</html>

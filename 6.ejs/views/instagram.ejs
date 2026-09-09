@@ -1,0 +1,25 @@
+<%- include("includes/head.ejs")%>
+<style>
+  img {
+    width: 300px;
+    height: 300px; 
+    object-fit: cover;
+   }
+</style>
+<body>
+  <h3>This page belongs to <%= data.name  %></h3>
+  <button>Follow</button>
+  <button>Message</button>
+
+  <h3>Followers : <%= data.followers%> &nbsp;  &nbsp;  &nbsp;
+    Following : <%=data.following%></h3>
+    
+    <hr>
+    <%for(let post of data.posts){%>
+      <img src=" <%=post.image%>" alt="some image"  >
+      <h3>❤️ : <%= post.likes%> &nbsp;  &nbsp;  &nbsp;
+      💬 : <%= post.comments%></h3>
+  <%}%>
+  <%- include("includes/footer.ejs")%>
+</body>
+</html>
