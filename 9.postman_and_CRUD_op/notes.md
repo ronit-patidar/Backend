@@ -1,5 +1,4 @@
-database access pas = cozt7rUa9fEAcjhI
-mongodb+srv://yt:cozt7rUa9fEAcjhI@cluster0.wwa2xdo.mongodb.net/
+
 what is server?
 node
 package eg- cat-me
